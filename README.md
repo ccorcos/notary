@@ -27,8 +27,38 @@ Work in progress.
 	- [Explore the truffle boxes.](http://truffleframework.com/boxes/)
 		- This truffle box has an [authentication contract](https://github.com/truffle-box/react-auth-box/blob/master/contracts/Authentication.sol) so you can [login through the Web UI](https://github.com/truffle-box/react-auth-box/blob/master/src/user/ui/loginbutton/LoginButtonActions.js#L36-L45).
 
-## Getting Started
+## Development Notes
+
+Install Truffle.
 
 ```
 npm install -g truffle
 ```
+
+You can start truffle from a "box".
+
+```
+truffle unbox metacoin
+```
+
+## To Do
+
+- Compile and build everything.
+- Deploy MetaCoin to Rinkeby using my Rinkeby account.
+	 - How do I specify the account?
+	 - Where is the address saved?
+- Install Zeppelin.
+- Build a simple notary?
+	- Simple html webpage for now.
+
+- Explore some of the tooling
+	- https://www.ethereum.org/cli
+	- http://web3js.readthedocs.io/en/1.0/index.html
+		- Where is the truffle private key stored?
+		- How can you iterate through the blockchain?
+		- Can you view decompiled source code?
+		- Can you view decompiled data structures?
+
+## Getting Started
+
+Coming soon...
