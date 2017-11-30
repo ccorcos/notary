@@ -26,6 +26,7 @@ Work in progress.
 		- [Skim the Zeppelin docs.](http://zeppelin-solidity.readthedocs.io/en/latest/index.html)
 	- [Explore the truffle boxes.](http://truffleframework.com/boxes/)
 		- This truffle box has an [authentication contract](https://github.com/truffle-box/react-auth-box/blob/master/contracts/Authentication.sol) so you can [login through the Web UI](https://github.com/truffle-box/react-auth-box/blob/master/src/user/ui/loginbutton/LoginButtonActions.js#L36-L45).
+	- Read through some of the [Truffle tutorials](http://truffleframework.com/tutorials/).
 
 ## Development Notes
 
@@ -41,15 +42,26 @@ You can start truffle from a "box".
 truffle unbox metacoin
 ```
 
+Compile the contracts to `./build/contracts/`. This created a JSON file containing the compiled bytecode, sourcemaps, and a JSON description of the external API.
+
+```
+truffle compile
+```
+
 ## To Do
 
-- Compile and build everything.
+- Read
+	- http://truffleframework.com/tutorials/ethereum-overview
+	- http://truffleframework.com/tutorials/debugging-a-smart-contract
+
+- Download Ganche, deploy to ganche.
+	- interact with the contract
+
 - Deploy MetaCoin to Rinkeby using my Rinkeby account.
 	 - How do I specify the account?
 	 - Where is the address saved?
 - Install Zeppelin.
-- Build a simple notary?
-	- Simple html webpage for now.
+- Build a simple notary with a Web UI
 
 - Explore some of the tooling
 	- https://www.ethereum.org/cli
@@ -58,6 +70,7 @@ truffle unbox metacoin
 		- How can you iterate through the blockchain?
 		- Can you view decompiled source code?
 		- Can you view decompiled data structures?
+
 
 ## Getting Started
 
